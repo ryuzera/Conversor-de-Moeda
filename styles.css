@@ -120,10 +120,13 @@
   
     margin-top: 3rem;
     outline: 0;
+
+    transition: transform .3s;
   }
   
   button:hover {
-    background-color: #4a5dcd;
+    background-color: #4f53d6;
+    transform: scale(1.05);
   }
   
   button:focus {
