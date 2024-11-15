@@ -44,8 +44,8 @@ form.onsubmit = (event) => {
             convertCurrency(amount.value, AUD, "AU$")
             break
 
-        case "GPB":
-            convertCurrency(amount.value, GPB, "£")
+        case "GBP":
+            convertCurrency(amount.value, GBP, "£")
             break
             
         case "JPY":
